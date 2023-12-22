@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Poppines",sans-serif;
+}
+
+.main{
+  background: url("hat.avif");
+  background-size: cover;
+  height: 100vh;
+}
+.button{
+    color:black;
+    font-size :30px;
+    font-weight: 700;
+    position:absolute;
+    top:0%;
+    left:12px;
+    line-height: 60px;
+  
+
+}
+.slide{
+    top:0%;
+    position: fixed;
+    left:-300px;
+    height:100vh;
+    width:300px;
+   background-color:rgba(119, 199, 222, 0.2);
+    box-shadow:0 0 6px rgba(55, 76, 91, 1);
+}
+
+
+.logo{
+    position:absolute;
+    width:100%;
+   
+    line-height:60px;
+    box-shadow:0 0 4px rgba(18, 2, 2, 0.5);
+}
+
+.logo a {
+    position:relative;
+   left:50px;
+    text-decoration: none;
+    font-size :25px;
+    font-weight:500;
+    color: black;
+}
+.two{
+    color:rgb(177, 133, 218);
+    font-size:20px;
+    font-weight: 700px;
+    position:absolute;
+    left:270px;
+    
+    line-height: 60px;
+
+}
+
+.menu{
+ top:70px;
+    
+    width:100%;
+
+    position:absolute;
+   
+    list-style-type: none;
+}
+.menu li{
+   
+    width:100%;
+    line-height:30px;
+    margin-top:6px;
+    padding:10px 20px;
+    position:relative;
+ 
+}
+.menu a{
+   
+    position:relative;
+    width:100%;
+    line-height:30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+menu i{
+    font-size: 40px;
+}
+.social{
+    position:absolute;
+
+    bottom:50px;
+    
+    width:100%;
+
+    
+}
+.social a{
+    position:relative;
+    left:120px;
+       
+    
+}
+.social i{
+color:black;
+font-size: 35px;
+}
+.social i:hover{
+    color:grey;
+
+}
+.main a:hover{
+    color:grey;
+    
+}
+.button:hover{
+    color:grey;
+    box-shadow: 0 4px rgba(237, 254, 255, 0.5); 
+font-size:35px;
+   
+
+}
+
+#check{
+    display:none;
+}
+.two i:hover{
+     color:grey;
+    font-size:25px;
+}
+#check:checked ~.slide{
+    left:0;
+}
+
+
+
+ 
+   
+    
+
